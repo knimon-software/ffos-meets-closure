@@ -8,8 +8,32 @@ Closure Library は以下の点から FirefoxOS アプリケーションの開�
  * 良質でよくテストされたモジュールが豊富なので、開発コストを低くできる
  * AltJS よりも学習コストが低い（AltJSだとデバッグのときピュアJSも読めなければならない）
 
+なお、Closure Library のセットアップツール [goog-starter-kit](https://github.com/cocopon/goog-starter-kit) を使っています。
+
 
 # インストール
+## 共通の手順
+
+1. Closure Tools をダウンロード、配置する
+
+    ターミナルを開き、以下のコマンドを実行します。
+
+        (`goog-starter-kit` ディレクトリに移動してから)
+        $ python tools/setup.py
+
+2. コンパイルする
+
+    コンパイルすると、パフォーマンス向上や、ソースコードが難読化されるなどの
+    利点があります。
+    コンパイルするには、以下のコマンドを実行してください。
+
+        $ python tools/compile.py
+
+    コンパイルに成功すると、 `production/` ディレクトリに出力されます。
+
+3. 下の手順に進む
+
+
 ## FirefoxOS Simulator
 [FirefoxOS Simulator](https://developer.mozilla.org/ja/docs/Tools/Firefox_OS_Simulator) を使う場合は、以下の手順でインストールできます。
 
