@@ -1,0 +1,15 @@
+{
+  "name": "FFOS meets Closure",
+  "description": "Experimental Application for Closure Library.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icon-16px.png",
+    "48": "/img/icon-488px.png",
+    "128": "/img/icon-128px.png"
+  },
+  "developer": {
+    "name": "Knimon software",
+    "url": "https://github.com/organizations/knimon-software"
+  },
+  "default_locale": "en"
+}
